@@ -1,8 +1,8 @@
-package springboot.reservation.data.dao;
+package springboot.reservation.data.entity;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
-import springboot.reservation.data.entity.BaseQuestion;
+import springboot.reservation.data.dao.BaseQuestion;
 
 import java.util.Optional;
 

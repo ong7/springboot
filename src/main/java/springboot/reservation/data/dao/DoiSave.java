@@ -1,19 +1,16 @@
-package springboot.reservation.data.entity;
+package springboot.reservation.data.dao;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.Entity;
-
 @Data
-@Document(collection = "basequestion")
+@Document(collection = "doisave")
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor @ToString
-public class BaseQuestion {
+public class DoiSave {
     @Id
     private String id;
-    private int questionID;
-    private String responseType;
+    private String doi;
+    private String landinPage;
     private Object object;
-
 }

@@ -1,4 +1,4 @@
-package springboot.reservation.data.entity;
+package springboot.reservation.data.dao;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

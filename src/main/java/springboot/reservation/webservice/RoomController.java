@@ -8,12 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-import springboot.reservation.data.dao.RoomRepository;
-import springboot.reservation.data.dao.UserRepository;
-import springboot.reservation.data.dao.BaseQuestionRepository;
-import springboot.reservation.data.entity.BaseQuestion;
-import springboot.reservation.data.entity.Room;
-import springboot.reservation.data.entity.User;
+import springboot.reservation.data.entity.RoomRepository;
+import springboot.reservation.data.entity.UserRepository;
+import springboot.reservation.data.entity.BaseQuestionRepository;
+import springboot.reservation.data.dao.BaseQuestion;
+import springboot.reservation.data.dao.Room;
+import springboot.reservation.data.dao.User;
 import springboot.reservation.service.NextSequenceService;
 
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
-package springboot.reservation.data.dao;
+package springboot.reservation.data.entity;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
-import springboot.reservation.data.entity.User;
+import springboot.reservation.data.dao.User;
 
 import java.util.List;
 import java.util.Optional;
