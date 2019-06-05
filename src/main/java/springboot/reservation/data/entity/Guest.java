@@ -1,4 +1,4 @@
-package tp.getstarted.springboot.data.reservation.entity;
+package springboot.reservation.data.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,13 +1,15 @@
-package tp.getstarted.springboot.data.reservation.entity;
+package springboot.reservation.data.entity;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Data
 @Document(collection = "customSequences")
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor
-public class CustomSequences {
+public class CustomerSequences {
     @Id
     private String id;
     private int seq;
