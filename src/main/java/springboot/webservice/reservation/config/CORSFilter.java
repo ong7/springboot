@@ -1,4 +1,4 @@
-package tp.getstarted.springboot.config;
+package springboot.webservice.reservation.config;
 
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package tp.getstarted.springboot.data.reservation.entity;
+package springboot.webservice.reservation.data.entity;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

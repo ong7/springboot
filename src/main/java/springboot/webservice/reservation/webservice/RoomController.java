@@ -1,4 +1,4 @@
-package tp.getstarted.springboot.data.reservation.application;
+package springboot.webservice.reservation.webservice;
 
 
 
@@ -8,13 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-import tp.getstarted.springboot.data.reservation.dao.BaseQuestionRepository;
-import tp.getstarted.springboot.data.reservation.dao.RoomRepository;
-import tp.getstarted.springboot.data.reservation.dao.UserRepository;
-import tp.getstarted.springboot.data.reservation.entity.BaseQuestion;
-import tp.getstarted.springboot.data.reservation.entity.Room;
-import tp.getstarted.springboot.data.reservation.entity.User;
-import tp.getstarted.springboot.data.reservation.service.NextSequenceService;
+import springboot.webservice.reservation.data.entity.Room;
+import springboot.webservice.reservation.data.dao.BaseQuestionRepository;
+import springboot.webservice.reservation.data.dao.RoomRepository;
+import springboot.webservice.reservation.data.dao.UserRepository;
+import springboot.webservice.reservation.data.entity.BaseQuestion;
+import springboot.webservice.reservation.data.entity.User;
+import springboot.webservice.reservation.service.NextSequenceService;
 
 import java.util.ArrayList;
 import java.util.List;

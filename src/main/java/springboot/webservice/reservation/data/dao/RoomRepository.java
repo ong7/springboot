@@ -1,8 +1,8 @@
-package tp.getstarted.springboot.data.reservation.dao;
+package springboot.webservice.reservation.data.dao;
 
-import tp.getstarted.springboot.data.reservation.entity.Room;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+import springboot.webservice.reservation.data.entity.Room;
 
 @Repository
 public interface RoomRepository extends CrudRepository<Room, Long> {

@@ -1,7 +1,7 @@
-package tp.getstarted.springboot.data.reservation.dao;
+package springboot.webservice.reservation.data.dao;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
-import tp.getstarted.springboot.data.reservation.entity.User;
+import springboot.webservice.reservation.data.entity.User;
 
 import java.util.List;
 import java.util.Optional;
